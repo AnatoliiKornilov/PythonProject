@@ -24,5 +24,5 @@ class TheEnd(QWidget):
 
     def openMainWindow(self):
         self.close()
-        self.window = project1.MainMenu()
+        self.window = Application.MainMenu()
         self.window.show()
