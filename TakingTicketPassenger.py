@@ -150,7 +150,7 @@ class TakingTicketPassenger(QWidget):
             else:
                 self.close()
                 self.window1 = TakingTicketPassenger(self, self.passengerId + 1, self.number_of_passengers,
-                                                     self.passengers, self.flight)
+                                                     self.flight)
                 self.window1.show()
                 self.window1.act()
 
